@@ -1,0 +1,2 @@
+pandas==your_pandas_version
+openpyxl==your_openpyxl_version
