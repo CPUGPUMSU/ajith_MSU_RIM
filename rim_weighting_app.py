@@ -35,7 +35,7 @@ def normalize_weights(df, original_count):
 st.title("RIM Weighting Application - MSU")
 
 
-uploaded_file = st.file_uploader("#Choose a file(.xlsx) for RIM weighting")
+uploaded_file = st.file_uploader("Choose a file(.xlsx) for RIM weighting")
 if uploaded_file is not None:
     df = pd.read_excel(uploaded_file,engine='openpyxl')
     st.write("Columns available for selection:")
